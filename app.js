@@ -225,7 +225,7 @@ function navHTML(){
 }
 function bannerHTML(){
   if(VIEW!=="dashboard" && VIEW!=="org-settings") return "";
-  return `<div class="banner info"><span><b>Demo workspace.</b> Sample data for a fictional company. Everything you change is stored only in this browser (localStorage); nothing is sent anywhere.</span><span class="row" style="margin-left:auto"><button class="btn sm" data-act="demo-reset">Reset demo data</button><button class="btn sm" data-act="demo-clear">Start empty</button></span></div>`;
+  return `<div class="banner info"><span><b>Demo workspace created by Andres Espindola with AI assistance.</b> Sample data for a fictional company. Everything you change is stored only in this browser (localStorage); nothing is sent anywhere.</span><span class="row" style="margin-left:auto"><button class="btn sm" data-act="demo-reset">Reset demo data</button><button class="btn sm" data-act="demo-clear">Start empty</button></span></div>`;
 }
 function head(title, sub, actions=""){ return `${bannerHTML()}<div class="top"><div><h1>${title}</h1>${sub?`<p>${sub}</p>`:""}</div><div class="row">${actions}</div></div>`; }
 
