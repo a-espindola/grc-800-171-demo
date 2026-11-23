@@ -109,6 +109,10 @@ Plain JavaScript, HTML, and CSS with no frameworks.
 
 ---
 
+## How this was built
+
+This project was built with AI assistance. I defined the requirements and features, supplied the NIST source datasets, made the design decisions, and reviewed and tested the results. Claude, an AI assistant made by Anthropic, helped write the code and documentation. Framework content such as requirement text, assessment objectives, and scoring rules comes from the published NIST and DoD sources listed above, not from the AI.
+
 ## Limitations
 
 - This is a **portfolio and practice project for educational purposes**. It is not affiliated with or endorsed by NIST, the DoD, or the Cyber AB, and it is not legal or compliance advice.
