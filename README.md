@@ -8,7 +8,7 @@ A browser-based governance, risk, and compliance (GRC) workspace for implementin
 
 This is a practice project. It runs entirely in your browser with sample data for a **fictional** company, Northwind Aerospace LLC, so you can click through a realistic program: an SPRS score of 101, Conditional Level 2 eligibility, open POA&M items, signed policies, and a completed access review.
 
-**▶ Live demo:** `https://<your-username>.github.io/grc-800-171-cmmc-demo/` *(see [Publish on GitHub Pages](#publish-on-github-pages))*
+**▶ Live demo:** [a-espindola.github.io/grc-800-171-demo](https://a-espindola.github.io/grc-800-171-demo/)
 
 ![Dashboard](docs/screenshots/dashboard.png)
 *Dashboard: SPRS score, 800-171A objectives, CMMC Level 2 readiness, and implementation by family.*
@@ -71,10 +71,10 @@ No build step and no dependencies to install.
 - **Reset:** the Dashboard and Organization pages have **Reset demo data** and **Start empty** buttons.
 
 ### Publish on GitHub Pages
-1. Push this folder to a new GitHub repository (e.g., `grc-800-171-cmmc-demo`).
+1. Push this folder to a new GitHub repository (e.g., `grc-800-171-demo`).
 2. In the repository, go to **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save.
-4. After a minute the site is live at `https://<your-username>.github.io/grc-800-171-cmmc-demo/`. Update the link at the top of this README.
+4. After a minute the site is live at `https://a-espindola.github.io/grc-800-171-demo/`. If you fork or rename the repository, update the link at the top of this README.
 5. *(Optional)* Set the thumbnail shown when the repo is shared: **Settings → General → Social preview → Edit → Upload an image**, and choose `docs/social-preview.png`.
 
 ---
